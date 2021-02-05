@@ -5,8 +5,8 @@ function AppRouter() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={HomeContainer} />
-        <Route path="/login" component={(props) => <LoginContainer {...props} />} />
+        {/* <Route exact path="/" component={HomeContainer} />
+        <Route path="/login" component={(props) => <LoginContainer {...props} />} /> */}
       </Switch>
     </Router>
   );
